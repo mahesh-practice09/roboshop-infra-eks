@@ -7,8 +7,8 @@ terraform {
   }
 
   backend "s3" {
-    bucket  = "remote-state-aws-88s-dev" # Replace with your unique bucket name
-    key     = "terraform-eks-vpc"
+    bucket  = "roboshop-infra-sbx" # Replace with your unique bucket name
+    key     = "roboshop-eks-vpc"
     region  = "us-east-1"
     encrypt = true
     use_lockfile   = true
