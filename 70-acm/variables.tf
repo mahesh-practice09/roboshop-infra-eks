@@ -7,9 +7,9 @@ variable "environment" {
 }
 
 variable "zone_id" {
-    default = "Z04311461UOYT2X1S4LOM"
+    default = "Z01154241BNSMMPVQO32W"
 }
 
 variable "domain_name" {
-    default = "daws88s.online"
+    default = "daws88s.shop"
 }
